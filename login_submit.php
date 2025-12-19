@@ -20,4 +20,7 @@ if ($num == 0) {
   $_SESSION['email'] = $row['email'];
   $_SESSION['user_id'] = $row['id'];
   header('location: products.php');
+
 }
+
+?>
